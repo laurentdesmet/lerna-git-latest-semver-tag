@@ -1,5 +1,5 @@
 {
-  "name": "git-latest-semver-tag",
+  "name": "lerna-git-latest-semver-tag",
   "version": "1.0.2",
   "description": "Get the most recent git semver tag of your repository",
   "homepage": "https://github.com/stevemao/git-latest-semver-tag",
@@ -23,7 +23,7 @@
     "git"
   ],
   "dependencies": {
-    "git-semver-tags": "^1.1.2",
+    "lerna-git-semver-tags": "laurentdesmet/lerna-git-semver-tags#lerna",
     "meow": "^3.3.0"
   },
   "devDependencies": {

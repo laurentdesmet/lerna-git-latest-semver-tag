@@ -1,8 +1,8 @@
 'use strict';
-var gitSemverTags = require('git-semver-tags');
+var gitSemverTags = require('lerna-git-semver-tags');
 
-module.exports = function(cb) {
-  gitSemverTags(function(err, tags) {
+module.exports = function(packageName, cb) {
+  gitSemverTags(packageName, function(err, tags) {
     if (err) {
       cb(err);
       return;
